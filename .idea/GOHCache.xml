@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="ApiGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AppApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/app/app.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AppGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/app/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AppRouter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/app/app.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AppService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service/app/app.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CORSConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CORSWhitelist">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CoreConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Cutter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/internal/cutter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DataApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/data/data.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DataGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/data/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DataRouter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/data/data.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ExcelConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FileApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/app/file.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JWTConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JwtService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service/system/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LocalConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MySQLConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NodeApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/node/node.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NodeGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/node/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NodeRouter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/node/node.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Response">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/system/response/sys_api.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RouterGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/app/enter.go" />
+              <option value="file://$PROJECT_DIR$/router/data/enter.go" />
+              <option value="file://$PROJECT_DIR$/router/enter.go" />
+              <option value="file://$PROJECT_DIR$/router/node/enter.go" />
+              <option value="file://$PROJECT_DIR$/router/service/enter.go" />
+              <option value="file://$PROJECT_DIR$/router/system/enter.go" />
+              <option value="file://$PROJECT_DIR$/router/user/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchApiParams">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/system/request/sys_api.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchApiParamsRes">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/system/response/sys_api.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServerConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServiceApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/service/service.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServiceGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/service/enter.go" />
+              <option value="file://$PROJECT_DIR$/api/v1/system/enter.go" />
+              <option value="file://$PROJECT_DIR$/service/app/enter.go" />
+              <option value="file://$PROJECT_DIR$/service/enter.go" />
+              <option value="file://$PROJECT_DIR$/service/system/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServiceRouter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/service/service.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SpecializedDB">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SysApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/system/sys_api.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SystemApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/system/sys_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SystemRouter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/system/system.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserApi">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/user/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/v1/user/enter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserRouter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/router/user/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Writer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/initilalize/internal/gorm_logger_writer.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ZapConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ZapCore">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/internal/zap_core.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="_gorm">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/initilalize/internal/gorm.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/api/v1/app/app.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721283592633" />
+              <option name="schema">
+                <list>
+                  <option value="AppApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/app/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721273632884" />
+              <option name="schema">
+                <list>
+                  <option value="AppGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/app/file.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721273770124" />
+              <option name="schema">
+                <list>
+                  <option value="FileApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/data/data.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721284254440" />
+              <option name="schema">
+                <list>
+                  <option value="DataApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/data/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721284225809" />
+              <option name="schema">
+                <list>
+                  <option value="DataGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721272896812" />
+              <option name="schema">
+                <list>
+                  <option value="ApiGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/node/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721270676790" />
+              <option name="schema">
+                <list>
+                  <option value="NodeGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/node/node.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721290759778" />
+              <option name="schema">
+                <list>
+                  <option value="NodeApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/service/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721284403850" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/service/service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721284396023" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/system/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721272280499" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/system/sys_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721283977712" />
+              <option name="schema">
+                <list>
+                  <option value="SystemApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/user/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721284541949" />
+              <option name="schema">
+                <list>
+                  <option value="UserGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/v1/user/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721284528950" />
+              <option name="schema">
+                <list>
+                  <option value="UserApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721297882532" />
+              <option name="schema">
+                <list>
+                  <option value="ServerConfig" />
+                  <option value="CORSWhitelist" />
+                  <option value="CORSConfig" />
+                  <option value="ExcelConfig" />
+                  <option value="JWTConfig" />
+                  <option value="LocalConfig" />
+                  <option value="MySQLConfig" />
+                  <option value="ZapConfig" />
+                  <option value="CoreConfig" />
+                  <option value="Config" />
+                  <option value="SpecializedDB" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/zap.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721291723181" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/internal/constant.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721182886196" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/internal/cutter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721182886196" />
+              <option name="schema">
+                <list>
+                  <option value="Cutter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/internal/zap_core.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721291367068" />
+              <option name="schema">
+                <list>
+                  <option value="ZapCore" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721298214912" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721298277105" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/viper.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721291086387" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/zap.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721294252008" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/docs/docs.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721288119644" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/global/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721294229400" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/initilalize/gorm.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721298226772" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/initilalize/internal/gorm.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721297821945" />
+              <option name="schema">
+                <list>
+                  <option value="_gorm" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/initilalize/internal/gorm_logger_writer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721297909965" />
+              <option name="schema">
+                <list>
+                  <option value="Writer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/initilalize/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721294751942" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721298233600" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/middleware/casbin.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721271517391" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/middleware/cors.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721282179586" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/middleware/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721271498327" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/middleware/limit.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721271505277" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/system/request/sys_api.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721282894418" />
+              <option name="schema">
+                <list>
+                  <option value="SearchApiParams" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/system/response/sys_api.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721282922668" />
+              <option name="schema">
+                <list>
+                  <option value="Response" />
+                  <option value="SearchApiParamsRes" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/system/sys_api.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721285677475" />
+              <option name="schema">
+                <list>
+                  <option value="SysApi" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/app/app.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286371591" />
+              <option name="schema">
+                <list>
+                  <option value="AppRouter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/app/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721285894368" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/data/data.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721295019762" />
+              <option name="schema">
+                <list>
+                  <option value="DataRouter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/data/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286394767" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286608830" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/node/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286399797" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/node/node.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286078840" />
+              <option name="schema">
+                <list>
+                  <option value="NodeRouter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/service/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286405829" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/service/service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286157365" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceRouter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/system/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286413054" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/system/system.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721287599032" />
+              <option name="schema">
+                <list>
+                  <option value="SystemRouter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/user/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721286490783" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/user/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721287626288" />
+              <option name="schema">
+                <list>
+                  <option value="UserRouter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/app/app.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721273377796" />
+              <option name="schema">
+                <list>
+                  <option value="AppService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/app/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721273361243" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721273465965" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/system/enter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721272245477" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceGroup" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/system/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721272213686" />
+              <option name="schema">
+                <list>
+                  <option value="JwtService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/direct.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721291345283" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="_gorm" value="_gorm" />
+        <entry key="api_group" value="ApiGroup" />
+        <entry key="app_api" value="AppApi" />
+        <entry key="app_group" value="AppGroup" />
+        <entry key="app_router" value="AppRouter" />
+        <entry key="app_service" value="AppService" />
+        <entry key="config" value="Config" />
+        <entry key="core_config" value="CoreConfig" />
+        <entry key="cors_config" value="CORSConfig" />
+        <entry key="cors_whitelist" value="CORSWhitelist" />
+        <entry key="cutter" value="Cutter" />
+        <entry key="data_api" value="DataApi" />
+        <entry key="data_group" value="DataGroup" />
+        <entry key="data_router" value="DataRouter" />
+        <entry key="excel_config" value="ExcelConfig" />
+        <entry key="file_api" value="FileApi" />
+        <entry key="jwt_config" value="JWTConfig" />
+        <entry key="jwt_service" value="JwtService" />
+        <entry key="local_config" value="LocalConfig" />
+        <entry key="my_sql_config" value="MySQLConfig" />
+        <entry key="node_api" value="NodeApi" />
+        <entry key="node_group" value="NodeGroup" />
+        <entry key="node_router" value="NodeRouter" />
+        <entry key="response" value="Response" />
+        <entry key="router_group" value="RouterGroup" />
+        <entry key="search_api_params" value="SearchApiParams" />
+        <entry key="search_api_params_res" value="SearchApiParamsRes" />
+        <entry key="server_config" value="ServerConfig" />
+        <entry key="service_api" value="ServiceApi" />
+        <entry key="service_group" value="ServiceGroup" />
+        <entry key="service_router" value="ServiceRouter" />
+        <entry key="specialized_db" value="SpecializedDB" />
+        <entry key="sys_api" value="SysApi" />
+        <entry key="system_api" value="SystemApi" />
+        <entry key="system_router" value="SystemRouter" />
+        <entry key="user_api" value="UserApi" />
+        <entry key="user_group" value="UserGroup" />
+        <entry key="user_router" value="UserRouter" />
+        <entry key="writer" value="Writer" />
+        <entry key="zap_config" value="ZapConfig" />
+        <entry key="zap_core" value="ZapCore" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1721303198351" />
+  </component>
+</project>
